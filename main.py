@@ -12,7 +12,7 @@ def pole_kola(a):
 def pole_prostokata(a,b):
         return a * b
 def pole_trojkata(a,b,c):
-        return (x*(s-a)*(x-b)*(x-c)) ** 0.5
+        return (x*(x-a)*(x-b)*(x-c)) ** 0.5
 
 pole = 0
 
